@@ -14,18 +14,6 @@ import java.util.List;
 @SpringBootApplication
 public class DemoApplication {
 
-//	@Autowired
-//	private UserRepository userRepository;
-//
-//	@PostConstruct
-//	public void initDB(){
-//		List<User> users = new ArrayList<>();
-//		users.add(new User(1,"ime1", "pass1", "adresa1"));
-//		users.add(new User(2,"ime2", "pass2", "adresa2"));
-//		users.add(new User(3,"ime3", "pass3", "adresa3"));
-//
-//		userRepository.saveAll(users);
-//	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
